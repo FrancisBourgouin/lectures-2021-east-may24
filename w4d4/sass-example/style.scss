@@ -1,0 +1,34 @@
+// section > h1{
+//   background:lightblue;
+// }
+// section article{
+//   border:2px solid green;
+//   margin:0.5em 0;
+// }
+// section article h1{
+//   background:#bada55;
+// }
+$primary-color : #4f7f2f;
+
+section{
+  & > h1{
+    background:lightblue;
+  }
+  article{
+    border:2px solid green;
+    margin:0.5em 0;
+    
+    h1{
+      background:#bada55;
+      color:$primary-color;
+    }
+  }
+}
+
+
+body{
+  transform
+  -webkit-transform
+  -ms-transform
+  -moz-transfo
+}

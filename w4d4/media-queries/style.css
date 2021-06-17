@@ -1,0 +1,30 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.potato{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.potato article{
+  background:yellow;
+  width:100%;
+  min-width:200px;
+  max-width:500px;
+}
+
+
+@media screen and (max-width:1200px){
+  body{
+    color:red;
+  }
+}
+@media screen and (max-width:900px){
+  body{
+    color:blue;
+  }
+}
