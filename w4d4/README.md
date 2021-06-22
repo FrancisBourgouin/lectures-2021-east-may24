@@ -1,3 +1,6 @@
+What's up Mitch?
+Cool it works!
+
 # W4D4 - Responsive design and Sass
 
 ## Today's menu
@@ -12,7 +15,6 @@
 
 - Click on something, acts fast
 - No glitches
-
 - Adjust to any device
 - Adjust to window size
 - Interaction with client
