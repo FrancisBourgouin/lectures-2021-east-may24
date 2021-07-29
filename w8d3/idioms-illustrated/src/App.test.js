@@ -1,8 +1,8 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, prettyDOM } from '@testing-library/react';
 import App from './App';
 
 test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const { debug, container } = render(<App />);
+  console.log(prettyDOM(container))
+  // expect(linkElement).toBeInTheDocument();
 });
